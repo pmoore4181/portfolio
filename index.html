@@ -2,36 +2,30 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Patrick Moore</title>
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <!-- icon -->
+    <link rel="icon" href="./img/headphones-icon.png">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
@@ -63,13 +57,10 @@
         </div>
         <!-- /.container -->
     </nav>
-
-
     <!-- Header -->
-    <a name="about"></a>
+    <a name="info"></a>
     <div class="intro-header">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
@@ -78,109 +69,120 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://github.com/pmoore4181" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/pmoore4181" class="btn btn-default btn-lg" target='_blank'><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/patrick-charles-moore/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="https://www.linkedin.com/in/patrick-charles-moore/" class="btn btn-default btn-lg" target='_blank'><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                            <li>
+                                <a href="mailto:pmoore4181@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
                             </li>
                         </ul>
                         <hr class="intro-divider">
-
-                            <div class="col-sm-6 col-sm-offset-3">
+                        <div class="col-sm-6 col-sm-offset-3">
                             <p class="lead">Full Stack Web Developer. Highly motivated. Always looking to learn and use new technologies. Able to remain calm, focused and driven in high stress environments. Excellent communication skills. Expereience as part of a team to provide the highest quality service.</p>
-                            </div>
-
+                        </div>
                     </div>
-
                 </div>
-
             </div>
-
+            <a name='about'></a>
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.intro-header -->
-
+    <!-- about section -->
+    <div class='personal-info'>
+        <div class='container'>
+            <div class='row'>
+                <h1 class='text-center'>About Me</h1>
+                <hr>
+                <!-- left side -->
+                <div class="col-lg-5 col-sm-6">
+                    <p class='text-center lead'>
+                        I grew up in New York and moved to Texas in 2015. I sometimes miss the mountains of Upstate New York but have come to love the warm weather of Texas and the friendly people I have met here. When I'm not working with computers, I am playing guitar or spending time outside with my girlfriend and our dog exploring new places.
+                    </p>
+                    <p class='text-center lead'>
+                        I have been playing guitar for 12 years and have studied music theory at a college level. I have been in and out of bands since I started playing and recently have been giving lessons to younger kids so they can start their own bands and share some of the amazing experiences I had when I was growing up.
+                    </p>
+                </div>
+                <!-- right side -->
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <p class='text-center lead'>
+                        I love learning new languages and technologies in web development and beyond. I have been using Linux on my personal laptop with the goal of turning it into a personal server to play with. I have also been working on some DIY projects to turn a Raspberry Pi into a server that will host Docker containers.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
     <!-- Page Content -->
-
-	<a  name="services"></a>
-
+    <a name="services"></a>
     <div class="content-section-b">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <h2 class="section-heading">New Leaf</h2>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">New Leaf</h2>
-                    <p class="lead">Web App that allows users to keep track of personal tasks to work on during the week. User has individual profile, can add goals and assign them to certain days of the week.</p>
+                    <p class="lead">Web App that allows users to keep track of personal tasks to work on during the week. User has individual profile, can add goals and assign them to certain days of the week. Hosted on Heroku</p>
                     <p>Languages Used: Node.js, Express.js, GULP, JS, Jquery, MySql, Sequelize, Handlebars, Bulma Styling, Heroku</p>
-                    <p><a href="https://new-leaf.herokuapp.com/">New Leaf</a> | 
-                    <a href="https://github.com/JCFlores/habitTracker">Github</a></p>
+                    <p><a href="https://new-leaf.herokuapp.com/">New Leaf</a> |
+                        <a href="https://github.com/JCFlores/habitTracker">Github</a></p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <br>
+                    <br>
                     <img class="img-responsive" src="img/newleaf2.png" alt="">
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
     </div>
-
-
     <div class="content-section-a">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
+                    <h2 class="section-heading" id='lghh-heading'>Lower Greenville Happy Hour</h2>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading" id='lghh-heading'>Lower Greenville Happy Hour</h2>
                     <p class="lead">A web app that allows you to search for happy hour specials on each day of the week. Provides list of bars with location and additional information based on requested day. Hosted on Heroku</p>
-                    <a target='_blank' href='https://lghh.herokuapp.com/'>LGHH</a>
-                    |
+                    <p>Languages Used: Node.js, Express.js, GULP, JS, Jquery</p>
+                    <a target='_blank' href='https://lghh.herokuapp.com/'>LGHH</a> |
                     <a target='_blank' href='https://github.com/pmoore4181/LGHH'>Github</a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <br>
+                    <br>
                     <a target='_blank' href='https://lghh.herokuapp.com/'><img class="img-responsive" src="img/lghh2.png" alt="Link to LGHH on Heroku"></a>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.content-section-a -->
-
     <div class="content-section-b">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <h2 class="section-heading">Eat Da Burger</h2>
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Eat Da Burger</h2>
-                    <p class="lead">Web Application that allows user to input names of burgers they want to eat and they get saved to a MySQL database. The user can click the "Devour It!" button and the burger will be taken off the list and moved to another section of the page. Site is hosted on Heroku</p>
-                    <p>Languages Used: Node.js, Express.js, MySql Handlebars.js</p>
-                    <p><a href="https://shrouded-garden-70528.herokuapp.com/">Eat Da Burger</a> | 
-                    <a href="https://github.com/pmoore4181/burger">Github</a></p>
+                    <p class="lead">Web Application that allows user to input names of burgers they want to eat and they get saved to a MySQL database. The user can click the "Devour It!" button and the burger will be taken off the list and moved to another section of the page. Hosted on Heroku</p>
+                    <p>Languages Used: Node.js, Express.js, MySql, Handlebars.js</p>
+                    <p><a href="https://shrouded-garden-70528.herokuapp.com/">Eat Da Burger</a> |
+                        <a href="https://github.com/pmoore4181/burger">Github</a></p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <br>
+                    <br>
                     <img class="img-responsive" src="img/burger.png" alt="">
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.content-section-b -->
-
-<!--     <div class="content-section-a">
+    <!--     <div class="content-section-a">
 
         <div class="container">
 
@@ -200,44 +202,38 @@
 
     </div> -->
     <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
+    <a name="contact"></a>
     <div class="banner">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-6">
-                    <!-- <h2>Connect:</h2> -->
+                    <h3 class='contactName'>Patrick Moore</h3>
+                    <br>
+                    <a class='contactLink' href="tel:+1-631-338-4246">631-338-4246</a>
+                    <a class='contactLink' href='mailto:pmoore4181@gmail.com'>pmoore4181@gmail.com</a>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
+                        <br>
                         <li>
-                            <a href="https://github.com/pmoore4181" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a target='_blank' href="https://github.com/pmoore4181" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/patrick-charles-moore/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            <a target='_blank' href="https://www.linkedin.com/in/patrick-charles-moore/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.banner -->
-
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
                         <li>
                             <a href="#about">About</a>
                         </li>
@@ -250,18 +246,14 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>

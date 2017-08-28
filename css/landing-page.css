@@ -61,6 +61,16 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.contactLink {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.contactName {
+    text-decoration: underline;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -92,6 +102,11 @@ h6 {
     letter-spacing: 2px;
 }
 
+.personal-info {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -103,14 +118,15 @@ h6 {
     border-bottom: 1px solid #e7e7e7;
 }
 
-.section-heading {
-    margin-bottom: 30px;
-}
+/*.section-heading {
+    margin-bottom: 10px;
+}*/
 
 .section-heading-spacer {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
+
 }
 
 .banner {
