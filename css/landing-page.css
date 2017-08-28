@@ -107,6 +107,11 @@ h6 {
     background-color: #f8f8f8;
 }
 
+#rosie {
+    width: 75%;
+    margin: auto auto;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
