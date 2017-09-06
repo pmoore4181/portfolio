@@ -131,6 +131,13 @@ a.btn-lg {
     margin-bottom: 10px;
 }*/
 
+#photo {
+    width: 80%;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top: -10%;
+}
+
 .section-heading-spacer {
     float: left;
     width: 200px;
